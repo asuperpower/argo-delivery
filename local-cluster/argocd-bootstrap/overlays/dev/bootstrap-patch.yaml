@@ -1,0 +1,11 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app-of-apps
+  namespace: argocd
+
+spec:
+  source:
+    repoURL: https://github.com/asuperpower/argo-delivery.git
+    targetRevision: HEAD
+    path: argocd/app-of-apps/dev
