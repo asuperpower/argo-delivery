@@ -6,4 +6,4 @@ metadata:
 
 spec:
   source:
-    path: argocd/app-of-apps/dev
+    path: argocd/app-of-apps/prod
