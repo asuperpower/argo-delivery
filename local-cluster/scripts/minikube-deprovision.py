@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import subprocess
 
 def stop_minikube_instance(environment):
